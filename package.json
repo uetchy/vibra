@@ -1,0 +1,32 @@
+{
+  "name": "@vibra/core",
+  "description": "Promise-ish animation framework.",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "yarn build && serve dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "serve": "^11.1.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0"
+  },
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "bugs": {
+    "url": "https://github.com/vibrajs/vibra/issues"
+  },
+  "homepage": "https://github.com/vibrajs/vibra",
+  "keywords": [
+    "vibra"
+  ],
+  "repository": "git@github.com:vibrajs/vibra.git"
+}
